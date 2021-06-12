@@ -14,8 +14,13 @@ function buildTransactionsString(channelId) {
   return buildRepositoryString(channelId, 'transactions');
 }
 
+function buildXpBoardString(channelId) {
+  return buildRepositoryString(channelId, 'xp-board');
+}
+
 module.exports = {
   buildInventoryString,
   buildBalanceString,
-  buildTransactionsString
-}
+  buildTransactionsString,
+  buildXpBoardString,
+};
